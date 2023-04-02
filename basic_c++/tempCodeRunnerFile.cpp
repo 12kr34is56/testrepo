@@ -1,4 +1,4 @@
- // for (int k = 1; k < num-1; k++)
-        // {
-        //     cout<<" ";
-        // }
+for (int i = 0; i <v.size(); i++)
+    {
+        v[i]=v[i]*v[i];
+    }

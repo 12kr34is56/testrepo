@@ -16,7 +16,7 @@ int main(void){
         {
             if (v[i]!=v[j])
             {
-                num=v[i];
+                num=v[j];
                 break;
             }
             

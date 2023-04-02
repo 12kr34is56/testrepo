@@ -16,20 +16,25 @@ int main(void)
     {
         v[i] = v[i] * v[i];
     }
+    for (int i = 0; i < v.size(); i++)
+    {
+        cout << v[i] << " ";
+    }
+    cout<<endl;
     int left_ptr = 0;
     int right_ptr = v.size() - 1;
     while (left_ptr < right_ptr)
     {
-        if (v[left_ptr] > v[right_ptr])
+        if (v[left_ptr] < v[right_ptr])
         {
             swap(v[left_ptr], v[right_ptr]);
             left_ptr++;
-            right_ptr--;
-        }
+            // right_ptr--;
+        }   
         if (v[left_ptr] > v[right_ptr])
         {
             right_ptr--;
-            left_ptr++;
+            // left_ptr++;
         }
     }
     for(int i = 0; i < v.size(); i++)

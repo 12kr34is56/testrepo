@@ -14,7 +14,7 @@ int main(void){
     {
         for (int j =i+1; j < v.size(); j++)
         {
-            if (v[i]!=v[j])
+            if (v[i]!=v[j]) //This logic won't work as evertime the v[i] beccomes not equal to v[j] it will assign value to num. Do dry run for {1,2,1,2,3}, u will understand :)
             {
                 num=v[i];
                 break;

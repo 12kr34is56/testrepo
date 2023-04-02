@@ -3,7 +3,7 @@
 #include<algorithm>
 using namespace std;
 int main(void){
-    vector<int>v={1,2,3,4,5};
+    vector<int>v={9,8,7,6,5,3,9,1,2};
     vector<int>v2;
     for (int i = 0; i < v.size(); i++)
     {

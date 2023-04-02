@@ -27,7 +27,7 @@ int main(void)
         {
             right_ptr--;
         }
-        for (int i = 0; i < 10; i++) //YAHA PE STOPPING CONDITION LESS THAN 10 HAI AND ELEMENTS ARE 9
+        for (int i = 0; i < 10; i++) //YAHA PE STOPPING CONDITION LESS THAN 10 HAI AND ELEMENTS ARE 9 and isko while loop ke bahar kro
         {
             cout<<v[i]<<" ";
         }

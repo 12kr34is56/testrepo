@@ -34,7 +34,7 @@ void binary::display(void)
     {
         cout << s.at(i);
     }
-    cout<<endl;
+    cout << endl;
 }
 void binary::change()
 {
@@ -43,7 +43,9 @@ void binary::change()
         if (s.at(i) == '0')
         {
             s.at(i) == '1';
-        }else{
+        }
+        else
+        {
             s.at(i) == '0';
         }
     }

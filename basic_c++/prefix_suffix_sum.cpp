@@ -30,7 +30,7 @@ int main(void){
     {
         int ele;
         cin>>ele;
-        v.push_back(ele);
+        v.push_back(ele);                                                                                           
 
     }
     cout<<pre_suff_summ(v);

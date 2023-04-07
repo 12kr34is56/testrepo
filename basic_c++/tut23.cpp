@@ -1,9 +1,12 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 class shop
 {
-    int item_id[100];
-    int item_price[100];
+    vector<int>item_id;
+    // int item_id[100];
+    vector<int>item_price;
+    // int item_price[100];
     int counter;
 
 public:
@@ -17,9 +20,10 @@ public:
 void shop::set_price(void)
 {
     cout << "Enter the Item id:" << counter + 1 << endl;
-    cin >> item_id[counter];
+    
+    item_id.push_back(counter);
     cout << "Enter the Item Price:" << endl;
-    cin >> item_price[counter];
+    item_price.push_back(counter);
     counter++;
 }
 void shop::display_price(void)

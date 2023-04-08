@@ -10,9 +10,7 @@ public:
     {
         return (a + b);
     }
-
     int sumRealComplex(Complex, Complex);
-    // int sumCompComplex(Complex, Complex);
 };
 class Complex
 {
@@ -29,7 +27,6 @@ public:
     {
         a = n1;
         b = n2;
-        
     }
 
     void printNumber()

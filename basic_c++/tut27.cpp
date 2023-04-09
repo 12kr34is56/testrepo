@@ -5,17 +5,13 @@ class Complex;
 class Calculator
 {
 public:
-    int add(int a, int b)
-    {
-        return (a + b);
-    }
-    int sumRealComplex(Complex, Complex);
+       int sumRealComplex(Complex, Complex);
 };
 class Complex
 {
     int a, b;
     // friend int calculator::sum_complex(complex , complex   );
-    friend class Calulator;
+    friend class Calculator;
 
 public:
     void setNumber(int v1, int v2)

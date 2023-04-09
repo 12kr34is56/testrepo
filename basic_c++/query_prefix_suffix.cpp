@@ -10,7 +10,7 @@ int main(void){
         int ele;
         cin>>ele;
         v.push_back(ele);
-    }
+    }   
     cout<<"Here start prefix"<<endl;
     int prefix=0;
     for (int i = 1; i <= v.size(); i++)
